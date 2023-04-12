@@ -2,6 +2,7 @@
   "name": "gro-aa",
   "license": "UNLICENSED",
   "scripts": {
+    "goerli-studio": "NETWORK=goerli graph codegen && graph build && yarn deploy",
     "codegen": "graph codegen",
     "build": "graph build",
     "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ gro-aa",
